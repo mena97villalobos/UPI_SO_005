@@ -16,4 +16,6 @@ add_executable(Clase5 forks.c
         threads_semaphores.c
         thread_mutex.h
         thread_mutex.c
+        signal_handlers.h
+        signal_handler.c
 )

@@ -6,6 +6,7 @@
 #include "threads.h"
 #include "thread_mutex.h"
 #include "threads_semaphores.h"
+#include "signal_handlers.h"
 
 int main() {
     printf("********** Ejercicio 1: Forks **********\n");
@@ -20,6 +21,8 @@ int main() {
     thread_mutex();
     printf("\n\n\n\n********** Ejercicio 6: Threads & Semaphores **********\n");
     thread_semaphores();
+    printf("\n\n\n\n********** Ejercicio 7: Signal Handlers **********\n");
+    signal_handler();
     return 0;
 }
 
