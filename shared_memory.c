@@ -7,6 +7,8 @@
 #include <sys/shm.h>
 #include <string.h>
 
+#define SHM_SIZE 1024
+
 void shared_memory() {
     char buffer[SHM_SIZE];
 
