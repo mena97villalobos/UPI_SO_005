@@ -15,13 +15,13 @@ int main() {
     forks_pipes();
     printf("\n\n\n\n********** Ejercicio 3: Memoria Compartida **********\n");
     shared_memory();
-    printf("\n\n\n\n********** Ejercicio 4: Threads & Problemas de Sincronización **********\n");
+    // Bryan - printf("\n\n\n\n********** Ejercicio 4: Threads & Problemas de Sincronización **********\n");
     threads();
-    printf("\n\n\n\n********** Ejercicio 5: Threads & Mutex **********\n");
+    // Bryan - printf("\n\n\n\n********** Ejercicio 5: Threads & Mutex **********\n");
     thread_mutex();
-    printf("\n\n\n\n********** Ejercicio 6: Threads & Semaphores **********\n");
+    // Bryan - printf("\n\n\n\n********** Ejercicio 6: Threads & Semaphores **********\n");
     thread_semaphores();
-    printf("\n\n\n\n********** Ejercicio 7: Signal Handlers **********\n");
+    // Bryan - printf("\n\n\n\n********** Ejercicio 7: Signal Handlers **********\n");
     signal_handler();
     return 0;
 }
