@@ -7,6 +7,11 @@
 void forks() {
     const pid_t pid = fork();
 
+
+
+
+
+
     if (pid < 0) {
         printf("Oops, el fork falló\n");
         exit(EXIT_FAILURE);
