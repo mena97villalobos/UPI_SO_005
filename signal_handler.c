@@ -9,7 +9,7 @@ volatile int stop_signal = 1;
 // Aquí creamos un handler para señales esta función es la que vamos a registrar
 // Con esta función estamos haciendole override al signal handler del kernel
 void my_signal_handler(int signum) {
-    printf("\nRecibí la señal SIGINT (Ctrl+C)...\n");
+    printf("\nRecibí la señal SIGINT (^+C)...\n");
     stop_signal = 0;
 }
 
@@ -21,7 +21,7 @@ void signal_handler() {
         exit(EXIT_FAILURE);
     }
 
-    printf("Registré un signal handler para SIGINT (Ctrl+C).\n");
+    printf("Registré un signal handler para SIGINT (^+C).\n");
 
     // Infinite loop to keep the program running
     while (stop_signal) {
